@@ -1,4 +1,25 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+The project is a Decentralized version of Amazon, built on the blockchain. Which gives users the ability to purchase and sell items without the involvement of third parties
+
+
+## Features
+
+```bash
+- Upload your products to the store's smart contract
+- View uploaded products
+- Add products to cart
+- Make purchases with Ethereum
+```
+
+## Test Run this project
+
+The project is available at 
+
+To use this Application effectively:
+
+1. Donwload Metamask Wallet
+2. Ensure you are on the Rinkeby testnet
+3. Get Rinkeby test ethers from https://rinkebyfaucet.com
+
 
 ## Available Scripts
 

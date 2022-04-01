@@ -1,0 +1,31 @@
+.subtotal{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 130px;
+    padding: 20px;
+    background: #f3f3f3;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+}
+
+@media(max-width: 960px){
+    .subtotal{
+        margin-top: 10px;
+        width: 90%;
+    }
+}
+
+.subtotal__gift{
+    display: flex;
+    align-items: center;
+}
+
+.subtotal > button{
+    background: #f0c14b;
+    border: 1px solid;
+    border-color: #a88734 #9c7e31 #846a29;
+    height: 35px;
+    padding: 5px;
+    margin-top: 10px;
+}

@@ -1,0 +1,67 @@
+.product__page{
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 2rem;
+    min-height: 100vh;
+    padding: 90px 50px 0px 50px;
+    line-height: 30px;
+}
+.img__section img{
+    width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+}
+.product__title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.product__rating{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.product__price{
+    font-weight: bold;
+}
+.product__price strong{
+    font-size: 25px;
+    color: red;
+}
+.info{
+    padding-top: 10px;
+}
+.product__desc{
+    margin-top: 20px;
+}
+.delivery{
+    position: relative;
+    padding: 15px;
+    border: 2px solid #f0c14b;
+    border-radius: 20px;
+    height: 300px;
+}
+.delivery > button{
+    position: absolute;
+    background: #f0c14b;
+    border: 1px solid;
+    border-color: #a88734 #9c7e31 #846a29;
+    height: 50px;
+    width: 90%;
+    border-radius: 7px;
+    bottom: 10px;
+}
+.delivery__info{
+    background: #fafbfc;
+    border-radius: 15px;
+    height: 150px;
+    padding: 20px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.installment{
+    font-weight: bold;
+    color: #238496;
+    font-size: 15px;
+    padding: 5px;
+}

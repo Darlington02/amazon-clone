@@ -1,0 +1,25 @@
+.checkoutProduct{
+    display: flex;
+    background: white;
+    padding: 20px;
+    border: 1px solid gainsboro;
+}
+
+.checkoutProduct__image{
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+}
+
+.checkoutProduct__info{
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.checkoutProduct__info > button{
+    background: #f0c14b;
+    border: 1px solid;
+    border-color: #a88734 #9c7e31 #846a29;
+    height: 40px;
+    padding: 5px;
+    margin-top: 10px;
+}

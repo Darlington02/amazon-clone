@@ -1,0 +1,11 @@
+.checkout{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 10px;
+    grid-gap: 10px;
+}
+@media(max-width: 960px){
+    .checkout{
+        display: block;
+    }
+}

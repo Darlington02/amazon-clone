@@ -1,0 +1,11 @@
+*{
+  margin: 0;
+}
+
+iframe{
+  pointer-events: none;
+}
+
+button{
+  cursor: pointer;
+}

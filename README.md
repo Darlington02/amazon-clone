@@ -4,7 +4,7 @@ The project is a Decentralized version of Amazon, built on the blockchain. Which
 ## Features
 
 ```bash
-- Upload your products to the store's smart contract
+- Upload your products to the smart contract
 - View uploaded products
 - Add products to cart
 - Make purchases with Ethereum
@@ -12,7 +12,7 @@ The project is a Decentralized version of Amazon, built on the blockchain. Which
 
 ## Test Run this project
 
-The project is available at 
+The project is available at https://blockchain-amazon.netlify.app
 
 To use this Application effectively:
 
